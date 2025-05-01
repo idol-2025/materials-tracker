@@ -1,0 +1,116 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f3f4f6;
+}
+
+tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+.no-print {
+    display: none;
+}
+
+/* Modal styles */
+#materialModal, #deleteModal {
+    z-index: 1000;
+    display: none;
+}
+
+#materialModal .bg-white, #deleteModal .bg-white {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Custom colors */
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.bg-green-600 {
+    background-color: #16a34a;
+}
+
+.bg-yellow-600 {
+    background-color: #eab308;
+}
+
+.bg-gray-500 {
+    background-color: #6b7280;
+}
+
+.bg-red-600 {
+    background-color: #dc2626;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray-700 {
+    color: #4b5563;
+}
+
+.text-gray-500 {
+    color: #6b7280;
+}
+
+.font-medium {
+    font-weight: 500;
+}
